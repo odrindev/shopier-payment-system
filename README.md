@@ -1,4 +1,5 @@
 # shopier-payment-system
+# Demo: https://arzea.online/shopier/premium
 # Offer a balance loading system to your websites with Shopier.
 # Favicon settings can be made via the settings file.
 # Database settings can be made from the "connect" file.
