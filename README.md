@@ -1,7 +1,7 @@
 # shopier-payment-system
 # Demo: https://arzea.online/shopier/premium
 # Shopier ile web sitelerinize bir bakiye yükleme sistemi sunun.
-# Favicon ayarları ayarlar dosyası üzerinden yapılabilir.
+# Favicon ayarları "settings.php" dosyası üzerinden yapılabilir.
 # Veritabanı ayarları "connect.php" dosyasından yapılabilir.
 # Sistem, kullanıcının bakiye işlemleri için veritabanı işlemleri gerçekleştirir. Aşağıdaki dosyalarda, tablo ve sütun adlarını sisteminize göre ayarlamanız gerekir.
 # "-index.php"
