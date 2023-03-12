@@ -11,3 +11,6 @@
 # "-.env > line 1 and line 2"
 # For security reasons, the amount of the balance to be loaded is kept on SQL for a short time. For the system to work smoothly, you need to add the following code to the table containing user data.
 # "ALTER TABLE `table_name` ADD `postbalance` INT(15) NOT NULL DEFAULT '0';"
+
+# Shopier settings
+After creating a Shopier account, go to Integrations> Module Management and add your domain name. Then go to the Module Settings and set your return URL. You should set the link to the return_url_page file. Then copy your API information and make changes to the files.
