@@ -1,16 +1,16 @@
 # shopier-payment-system
 # Demo: https://arzea.online/shopier/premium
-# Offer a balance loading system to your websites with Shopier.
-# Favicon settings can be made via the settings file.
-# Database settings can be made from the "connect" file.
-# The system performs database operations for the user's balance transactions. In the following files, you need to set the table and column names according to your system.
+# Shopier ile web sitelerinize bir bakiye yükleme sistemi sunun.
+# Favicon ayarları ayarlar dosyası üzerinden yapılabilir.
+# Veritabanı ayarları "connect.php" dosyasından yapılabilir.
+# Sistem, kullanıcının bakiye işlemleri için veritabanı işlemleri gerçekleştirir. Aşağıdaki dosyalarda, tablo ve sütun adlarını sisteminize göre ayarlamanız gerekir.
 # "-index.php"
 # "-return_url_page.php"
-# Make edits to the following files to be able to connect with Shopier.
-# "-index.php > line 20 and line 21"
-# "-.env > line 1 and line 2"
-# For security reasons, the amount of the balance to be loaded is kept on SQL for a short time. For the system to work smoothly, you need to add the following code to the table containing user data.
+# Shopier ile bağlantı kurabilmek için aşağıdaki dosyalarda düzenlemeler yapın.
+# "-index.php > satır 20 ve satır 21"
+# "-.env > satır 1 ve satır 2"
+# Güvenlik nedeniyle, yüklenecek bakiyenin miktarı sql'de kısa bir süre tutulur. Sistemin sorunsuz çalışması için kullanıcı verilerini içeren tabloya aşağıdaki kodu eklemeniz gerekir.
 # "ALTER TABLE `table_name` ADD `postbalance` INT(15) NOT NULL DEFAULT '0';"
 
-# Shopier settings
-After creating a Shopier account, go to Integrations> Module Management and add your domain name. Then go to the Module Settings and set your return URL. You should set the link to the return_url_page file. Then copy your API information and make changes to the files.
+# Shopier ayarları
+Bir Shopier hesabı oluşturduktan sonra Entegrasyonlar> Modül Yönetimi'ne gidin ve alan adınızı ekleyin. Ardından Modül Ayarlarına gidin ve dönüş URL'nizi ayarlayın. Bağlantıyı return_url_page dosyasına ayarlamanız gerekir. Ardından API bilgilerinizi kopyalayın ve dosyalarda değişiklik yapın.
